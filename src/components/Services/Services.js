@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './services.css';
 
 export default class Services extends Component{
     render(){
