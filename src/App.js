@@ -6,6 +6,7 @@ import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Info from './components/Info/Info';
 import Form from './components/Form/Form';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Contact/>
         <Info/>
         <Form/>
+        <Footer/>
       </div>
     );
   }
