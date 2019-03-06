@@ -1,5 +1,7 @@
 .services ul li{
     list-style-type: none;
     text-align:left;
-    margin-left:20%;
+    margin-left:15%;
+    margin-bottom:1%;
+    font-size:140%;
 }
