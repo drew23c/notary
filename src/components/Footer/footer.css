@@ -4,8 +4,8 @@
     width:100%;
     height:60px;
     font-size:160%;
-    background-color:rgb(10, 94, 10);
+    background-color:black;
 }
 .footer a{
-    color:black;
+    color:rgb(10, 94, 10);
 }
