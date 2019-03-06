@@ -4,7 +4,7 @@ export default class Footer extends Component{
     render(){
         return(
             <div className="contact">
-                <h2>Footer</h2>
+                <p><a href="mailto:viviennecaldwell35@gmail.com">viviennecaldwell35@gmail.com</a></p>
             </div>
         )
     }
