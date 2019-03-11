@@ -15,14 +15,14 @@ export default class App extends Component {
 
     render(){
         return(
-            <View>
+            <ScrollView>
                 <Header/>
                 <Services/>
                 <Contact/>
                 <Info/>
                 <Form/>
                 <Footer/>
-            </View>
+            </ScrollView>
         )
     }
 }
