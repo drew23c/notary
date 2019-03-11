@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+*{
+  margin:0;
+  padding:0;
+}
 .App {
   text-align: center;
   font-family: 'Oleo Script', cursive;
@@ -35,5 +39,25 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 375px){
+  .App{
+    width:170vw;
+  }
+}
+@media only screen and (max-width: 414px){
+  .App{
+    width:170vw;
+  }
+}
+@media only screen and (max-width: 320px){
+  .App{
+    width:200vw;
+  }
+}
+@media only screen and (max-width: 360px){
+  .App{
+    width:200vw;
   }
 }
