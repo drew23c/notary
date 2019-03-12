@@ -8,7 +8,7 @@ export default class Footer extends Component{
         return(
             <View style={styles.container}>
                 <Text className="title">VC Mobile Signing Agent</Text>
-                <TouchableOpacity className="email-icon" onPress={()=> Communications.email("viviennecaldwell35@gmail.com", null, null, 'My Subject', 'My body text')}><Image style={{height:30, width:30}} source={email} /></TouchableOpacity>
+                <TouchableOpacity className="email-icon" onPress={()=> Communications.email(["viviennecaldwell35@gmail.com", "viviennecaldwell35@gmail.com"], null, null, 'My Subject', 'My body text')}><Image style={{height:30, width:30}} source={email} /></TouchableOpacity>
             </View>
         )
     }
