@@ -1,29 +1,43 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View, Image, TouchableWithoutFeedback, ScrollView, Animated, Linking, Easing } from 'react-native';
-import Communications from 'react-native-communications';
 import Header from './components/Header/Header';
 import Contact from './components/Contact/Contact';
 import Services from './components/Services/Services';
 import Info from './components/Info/Info';
 import Form from './components/Form/Form';
 import Footer from './components/Footer/Footer';
+import {Font} from 'expo';
 
 export default class App extends Component {
   static navigationOptions = {
     title:'VC Mobile Signing Agent'
 }
-
+state = {
+    fontLoaded: false,
+  };
+async componentDidMount() {
+    await Font.loadAsync({
+      'oleoScript': require('../assets/fonts/OleoScript-Bold.ttf'),
+    });
+    this.setState({ fontLoaded: true });
+}
     render(){
         return(
             <ScrollView>
-                <View style={styles.container}>
-                <Header/>
-                <Services/>
-                <Contact/>
-                <Info/>
-                <Form/>
-                <Footer/>
-                </View>
+                {
+                    this.state.fontLoaded ? (
+                        <View style={styles.container}>
+                        <Header/>
+                        <Services/>
+                        <Contact/>
+                        <Info/>
+                        <Form/>
+                        <Footer/>
+                        </View>
+                    )
+                    :
+                    null
+                }
             </ScrollView>
         )
     }
@@ -31,13 +45,14 @@ export default class App extends Component {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
+      fontFamily:'oleoScript',
       alignItems: 'center',
       justifyContent: 'center',
       width:'100%',
       height:'100%',
       top:-5,
       zIndex:9,
-      backgroundColor:'rgb(245, 240, 240)'
+      color:'rgb(10, 94, 10)',
+      backgroundColor:'#ffffe5'
     }
 })
