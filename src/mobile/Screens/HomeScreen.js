@@ -16,13 +16,27 @@ export default class App extends Component {
     render(){
         return(
             <ScrollView>
+                <View style={styles.container}>
                 <Header/>
                 <Services/>
                 <Contact/>
                 <Info/>
                 <Form/>
                 <Footer/>
+                </View>
             </ScrollView>
         )
     }
 }
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width:'100%',
+      height:'100%',
+      top:-5,
+      backgroundColor:'rgb(245, 240, 240)'
+    }
+})

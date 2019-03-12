@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import {View, Text, FlatList} from 'react-native';
+import {View, Text, FlatList, StyleSheet} from 'react-native';
 
 export default class Services extends Component{
     render(){
         return(
-            <View className="services">
+            <View style={styles.container}>
             <Text>Certified Mobile Notary Signing Agent travels to you.  Our service is strictly mobile by appointment only</Text>
                 <FlatList
                     data={[
@@ -23,3 +23,10 @@ export default class Services extends Component{
         )
     }
 }
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems: 'center',
+        justifyContent: 'center',  
+    }
+})

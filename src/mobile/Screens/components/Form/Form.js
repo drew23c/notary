@@ -1,17 +1,22 @@
 import React, {Component} from 'react';
-import {View, Text, WebView} from 'react-native';
-import Iframe from 'react-iframe';
+import {View, Text, WebView, StyleSheet} from 'react-native';
 
 export default class Form extends Component{
     render(){
         return(
-            <View>
+            <View style={styles.container}>
                 <WebView 
                     source={{uri:'https://docs.google.com/forms/d/e/1FAIpQLSdnfeKQk0k5cBa4j3eI_wSbI_3F4pC22q5ykhabFevCJ_h5Ww/viewform?embedded=true'}}
-                    style={{height:1200, width:400, alignItems:'center'}}
+                    style={{height:1000, width:400, alignItems:'center'}}
                 />
             </View>
         )
     }
 }
-<iframe url="https://docs.google.com/forms/d/e/1FAIpQLSdnfeKQk0k5cBa4j3eI_wSbI_3F4pC22q5ykhabFevCJ_h5Ww/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">...Loading</iframe>
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems: 'center',
+        justifyContent: 'center'  
+    }
+})

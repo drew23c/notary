@@ -8,7 +8,6 @@ export default class Footer extends Component{
             <div className="footer">
                 <ul className="footer-list">
                     <li className="title">VC Mobile Signing Agent</li>
-                    {/* <li><a href="mailto:viviennecaldwell35@gmail.com">viviennecaldwell35@gmail.com</a></li> */}
                     <li><a className="email-icon" href="mailto:viviennecaldwell35@gmail.com"><img src={email} /></a></li>
                 </ul>
             </div>
