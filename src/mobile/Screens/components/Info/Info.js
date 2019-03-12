@@ -12,28 +12,28 @@ export default class Info extends Component{
         return(
             <View style={styles.container}>
                 <View style={{width:'80%', left:-15}}>
-                    <Text>Covered by Errors and Omissions Insurance  policy for your protection.  We accept major credit and debit card, cash pay, cashier's check</Text>
+                    <Text>Covered by Errors and Omissions Insurance policy for your protection.  We accept major credit and debit card, cash pay, cashier's check</Text>
                     <Image style={{height:100, width:175, marginLeft:70}} source={payment} />
-                    <Text>Owned and operated by New York State licensed Notary, Vivienne Caldwell</Text>
-                    <Text>Cost includes charge for travel time, mileage, parking if needed, and gas</Text>
+                    <Text>Owned and operated by New York State licensed Notary, Vivienne Caldwell.</Text>
+                    <Text>Cost includes a charge for travel time, mileage, parking if needed, and gas.</Text>
                     <Image style={{height:50, width:50, marginLeft:140}} source={separator} />
                     <View style={styles.container}>
                         <Text style={styles.title}>Professional and Reliable</Text>
                         <Image style={{height:100, width:100, borderRadius:25}} source={professional} />
-                        <Text>We will arrive at your location prepared and ready to perform any notary service you require. We'll be courteous and arrive on time</Text>
+                        <Text>We will arrive at your location prepared and ready to perform any notary service you require. We'll be courteous and arrive on time.</Text>
                     </View>
                     <Image style={{height:50, width:50, marginLeft:140}} source={separator} />
                     <View style={styles.container}>
                         <Text style={styles.title}>Travel to your location</Text>
                         <Image style={{height:100, width:150, borderRadius:25}} source={car} />
-                        <Text>We will come to the location that works best for you</Text>
+                        <Text>We will come to the location that works best for you.</Text>
                     </View>
                     <Image style={{height:50, width:50, marginLeft:140}} source={separator} />
                     <View style={styles.container}>
                         <Text style={styles.title}>Certified</Text>
                         <Image style={{height:100, width:100, borderRadius:25}} source={pen} />
-                        <Text style={{fontSize:15}}>Specialized in loan documents for Refinance, Home purchase or sales, Home Equity Line of Credit and Reverse Mortgage</Text>  
-                        <Text style={{fontSize:15}}>Responsibilities include communicating with Escrow companies, Lenders and Signing Services</Text>
+                        <Text style={{fontSize:15}}>Specialized in loan documents for Refinance, Home purchase or sales, Home Equity Line of Credit and Reverse Mortgage.</Text>  
+                        <Text style={{fontSize:15}}>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</Text>
                     </View>
                     <Text style={{fontSize:15, marginLeft:70}}>Contact for a Quote today!</Text>
                     <TouchableOpacity onPress={()=> Communications.phonecall('3478586383',true)}><Text style={{fontSize:15, marginLeft:110}}>347-858-6383</Text></TouchableOpacity>
