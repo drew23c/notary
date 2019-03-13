@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
-import writerHeader from '../../pics/writer-header.jpg';
+import writerHeader from '../../pics/writerHeader.jpg';
 import profile from '../../pics/profile.jpg';
 
 export default class Header extends Component{
