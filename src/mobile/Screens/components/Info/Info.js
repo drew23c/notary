@@ -36,7 +36,7 @@ export default class Info extends Component{
                         <Text style={{fontSize:15}}>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</Text>
                     </View>
                     <Text style={{fontSize:15, marginLeft:70}}>Contact for a Quote today!</Text>
-                    <TouchableOpacity onPress={()=> Communications.phonecall('3478586383',true)}><Text style={{fontSize:15, marginLeft:110}}>347-858-6383</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={()=> Communications.phonecall('3478586393',true)}><Text style={{fontSize:15, marginLeft:110}}>347-858-6393</Text></TouchableOpacity>
                 </View>
             </View>
         )

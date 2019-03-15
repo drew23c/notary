@@ -33,7 +33,7 @@ export default class Info extends Component{
                     <h3>Specialized in loan documents for Refinance, Home purchase or sales, Home Equity Line of Credit and Reverse Mortgage.</h3>  
                     <h3>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</h3>
                 </div>
-                <h2>Contact for a Quote today! <br/>347-858-6383</h2>
+                <h2>Contact for a Quote today! <br/>347-858-6393</h2>
             </div>
         )
     }

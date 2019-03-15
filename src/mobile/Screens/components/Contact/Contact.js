@@ -8,8 +8,8 @@ export default class Contact extends Component{
         return(
             <View style={styles.container}>
                 <Text style={styles.title}>Click to Call</Text>
-                <TouchableOpacity onPress={()=> Communications.phonecall('3478586383', true)}><Image style={{height:100, width:100}} source={phone} /></TouchableOpacity>
-                <Text style={styles.title}>Call me at 347-858-6383</Text>
+                <TouchableOpacity onPress={()=> Communications.phonecall('3478586393', true)}><Image style={{height:100, width:100}} source={phone} /></TouchableOpacity>
+                <Text style={styles.title}>Call me at 347-858-6393</Text>
             </View>
         )
     }

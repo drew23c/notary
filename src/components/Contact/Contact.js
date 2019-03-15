@@ -7,8 +7,8 @@ export default class Contact extends Component{
         return(
             <div className="contact">
                 <h2>Click to Call</h2>
-                <a href="tel:3478586383"><img className="phone" src={phone} /></a>
-                <h2>Call me at 347-858-6383</h2>
+                <a href="tel:3478586393"><img className="phone" src={phone} /></a>
+                <h2>Call me at 347-858-6393</h2>
             </div>
         )
     }
