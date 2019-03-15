@@ -5,7 +5,8 @@ export default class Services extends Component{
     render(){
         return(
             <div className="services">
-            <h2>Certified Mobile Notary Signing Agent travels to you.  Our service is strictly mobile by appointment only</h2>
+            <h2>Certified Mobile Notary Signing Agent travels to you.  Our service is strictly mobile by appointment only.</h2>
+            <h2>Servicing the Queens, Brooklyn, and Long Island area.</h2>
                 <ul>
                     <li>~Making sure legal documents are authentic.</li>
                     <li>~Checking the identity of the person signing the documents.</li>
