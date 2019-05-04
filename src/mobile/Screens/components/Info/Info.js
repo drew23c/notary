@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, Image, TouchableWithoutFeedback, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, Text, Image, TouchableWithoutFeedback, StyleSheet, TouchableOpacity, FlatList} from 'react-native';
 import Communications from 'react-native-communications';
 import professional from '../../pics/professional.png';
 import car from '../../pics/car.jpg';
@@ -32,7 +32,19 @@ export default class Info extends Component{
                     <View style={styles.container}>
                         <Text style={styles.title}>Certified</Text>
                         <Image style={{height:100, width:100, borderRadius:25}} source={pen} />
-                        <Text style={{fontSize:15}}>Specialized in loan documents for Refinance, Home purchase or sales, Home Equity Line of Credit and Reverse Mortgage.</Text>  
+                            <Text style={{fontWeight:'bold', marginTop:5}}>Specializes In:</Text>
+                            <FlatList
+                                data={[
+                                    {key: 'Refinance'},
+                                    {key: 'Home purchase or sales'},
+                                    {key: 'Home Equity Line of Credit'},
+                                    {key: 'Trust'},
+                                    {key: 'Prenuptial Agreements'},
+                                    {key: 'Power of Attorney'},
+                                    {key: 'Reverse Mortgage'},
+                                ]}
+                                renderItem={({item}) => <Text style={{marginBottom:5, fontWeight:'bold'}}>{item.key}</Text>}
+                            />     
                         <Text style={{fontSize:15}}>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</Text>
                     </View>
                     <Text style={{fontSize:15, marginLeft:70}}>Contact for a Quote today!</Text>

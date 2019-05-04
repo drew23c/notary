@@ -30,7 +30,16 @@ export default class Info extends Component{
                 <div className="certified-section">
                     <h2>Certified</h2>
                     <img className="pen" src={pen} />
-                    <h3>Specialized in loan documents for Refinance, Home purchase or sales, Home Equity Line of Credit and Reverse Mortgage.</h3>  
+                    <ul className="featured-list">
+                    <h2>Specializes in:</h2>
+                        <li><b>Refinance</b></li>
+                        <li><b>Home purchase or sales</b></li>
+                        <li><b>Home Equity Line of Credit</b></li>
+                        <li><b>Trust</b></li>
+                        <li><b>Prenuptial Agreements</b></li>
+                        <li><b>Power of Attorney</b></li>
+                        <li><b>Reverse Mortgage</b></li>
+                    </ul>
                     <h3>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</h3>
                 </div>
                 <h2>Contact for a Quote today! <br/>347-858-6393</h2>
