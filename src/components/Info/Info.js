@@ -39,6 +39,21 @@ export default class Info extends Component{
                         <li><b>Prenuptial Agreements</b></li>
                         <li><b>Power of Attorney</b></li>
                         <li><b>Reverse Mortgage</b></li>
+                        <li><b>Loan Modification</b></li>
+                        <li><b>HELOC</b></li>
+                        <li><b>Sworn statement/affidavit</b></li>
+                        <li><b>Debt Resolution</b></li>
+                        <li><b>Closing</b></li>
+                        <li><b>Settlement</b></li>
+                        <li><b>Pension Verification</b></li>
+                        <li><b>Visitation of Minors</b></li>
+                        <li><b>Impound Releases</b></li>
+                        <li><b>Permission to travel for minor</b></li>
+                        <li><b>Last Will and Testimony</b></li>
+                        <li><b>Automotive Signing</b></li>
+                        <li><b>I-9 Verification</b></li>
+                        <li><b>Immigration Application</b></li>
+                        <li><b>Advance Healthcare Directives</b></li>
                     </ul>
                     <h3>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</h3>
                 </div>

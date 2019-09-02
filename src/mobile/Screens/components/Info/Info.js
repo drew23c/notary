@@ -42,6 +42,21 @@ export default class Info extends Component{
                                     {key: 'Prenuptial Agreements'},
                                     {key: 'Power of Attorney'},
                                     {key: 'Reverse Mortgage'},
+                                    {key: 'Loan Modification'},
+                                    {key: 'HELOC'},
+                                    {key: 'Sworn statement/affidavit'},
+                                    {key: 'Debt Resolution'},
+                                    {key: 'Closing'},
+                                    {key: 'Settlement'},
+                                    {key: 'Pension Verification'},
+                                    {key: 'Visitation of Minors'},
+                                    {key: 'Impound Releases'},
+                                    {key: 'Permission to travel for minor'},
+                                    {key: 'Last Will and Testimony'},
+                                    {key: 'Automotive Signing'},
+                                    {key: 'I-9 Verification'},
+                                    {key: 'Immigration Application'},
+                                    {key: 'Advance Healthcare Directives'},
                                 ]}
                                 renderItem={({item}) => <Text style={{marginBottom:5, fontWeight:'bold'}}>{item.key}</Text>}
                             />     
