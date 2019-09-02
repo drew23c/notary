@@ -24,7 +24,7 @@ export default class Info extends Component{
                 <div className="travel-section">
                     <h2>Travel to your location</h2>
                     <img className="car" src={car} />
-                    <h3>We will come to the location that works best for you.</h3>
+                    <h3>We will meet you at your home, office, school, hospital, rehab, assisted living or anywhere that is convenient for you.</h3>
                 </div>
                 <img className="separator" src={separator} />
                 <div className="certified-section">
