@@ -26,7 +26,7 @@ export default class Info extends Component{
                     <View style={styles.container}>
                         <Text style={styles.title}>Travel to your location</Text>
                         <Image style={{height:100, width:150, borderRadius:25}} source={car} />
-                        <Text>We will come to the location that works best for you.</Text>
+                        <Text>We will meet you at your home, office, school, hospital, rehab, assisted living or anywhere that is convenient for you.</Text>
                     </View>
                     <Image style={{height:50, width:50, marginLeft:140}} source={separator} />
                     <View style={styles.container}>
