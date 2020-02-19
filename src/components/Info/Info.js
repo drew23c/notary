@@ -60,6 +60,7 @@ export default class Info extends Component{
                         <li><b>Retirement</b></li>
                         <li><b>Life Certification</b></li>
                         <li><b>Insurance</b></li>
+                        <li><b>Bail Bonds</b></li>
                     </ul>
                     <h3>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</h3>
                 </div>
