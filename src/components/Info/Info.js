@@ -49,11 +49,17 @@ export default class Info extends Component{
                         <li><b>Visitation of Minors</b></li>
                         <li><b>Impound Releases</b></li>
                         <li><b>Permission to travel for minor</b></li>
-                        <li><b>Last Will and Testimony</b></li>
+                        <li><b>Last Will and Testaments</b></li>
                         <li><b>Automotive Signing</b></li>
                         <li><b>I-9 Verification</b></li>
                         <li><b>Immigration Application</b></li>
                         <li><b>Advance Healthcare Directives</b></li>
+                        <li><b>Tow Yard Consent</b></li>
+                        <li><b>Disposition</b></li>
+                        <li><b>Transfer of Property</b></li>
+                        <li><b>Retirement</b></li>
+                        <li><b>Life Certification</b></li>
+                        <li><b>Insurance</b></li>
                     </ul>
                     <h3>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</h3>
                 </div>
