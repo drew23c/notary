@@ -32,37 +32,31 @@ export default class Info extends Component{
                     <img className="pen" src={pen} />
                     <ul className="featured-list">
                     <h2>Specializes in:</h2>
-                        <li><b>Refinance</b></li>
+                        <li><b>Loan documents for Refinance</b></li>
                         <li><b>Home purchase or sales</b></li>
                         <li><b>Home Equity Line of Credit</b></li>
-                        <li><b>Trust</b></li>
-                        <li><b>Prenuptial Agreements</b></li>
-                        <li><b>Power of Attorney</b></li>
                         <li><b>Reverse Mortgage</b></li>
-                        <li><b>Loan Modification</b></li>
-                        <li><b>HELOC</b></li>
-                        <li><b>Sworn statement/affidavit</b></li>
-                        <li><b>Debt Resolution</b></li>
+                        <li><b>Loan modifications</b></li>
+                        <li><b>Debt Consolidation</b></li>
+                        <li><b>Power of Attorney</b></li>
+                        <li><b>Last Will and Testament</b></li>
+                        <li><b>Life of Certification</b></li>
+                        <li><b>Permission for Children/Child to travel without one parent</b></li>
+                        <li><b>Adoption</b></li>
+                        <li><b>Tow yard consent</b></li>
+                        <li><b>Impounds</b></li>
+                        <li><b>Affidavit</b></li>
                         <li><b>Closing</b></li>
-                        <li><b>Settlement</b></li>
-                        <li><b>Pension Verification</b></li>
-                        <li><b>Visitation of Minors</b></li>
-                        <li><b>Impound Releases</b></li>
-                        <li><b>Permission to travel for minor</b></li>
-                        <li><b>Last Will and Testaments</b></li>
-                        <li><b>Automotive Signing</b></li>
-                        <li><b>I-9 Verification</b></li>
-                        <li><b>Immigration Application</b></li>
-                        <li><b>Advance Healthcare Directives</b></li>
-                        <li><b>Tow Yard Consent</b></li>
-                        <li><b>Disposition</b></li>
-                        <li><b>Transfer of Property</b></li>
-                        <li><b>Retirement</b></li>
-                        <li><b>Life Certification</b></li>
+                        <li><b>Deposition</b></li>
+                        <li><b>Transfer of property</b></li>
                         <li><b>Insurance</b></li>
+                        <li><b>Retirement</b></li>
                         <li><b>Bail Bonds</b></li>
+                        <li><b>Background Check</b></li>
                     </ul>
                     <h3>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</h3>
+                    <h3>Also serving as a Remote Testimony Witness:</h3>
+                    <h3>Telephone Deposition where the court or circumstances set  up a conference call, where a Notary will be present to identify the individual providing the testimony.</h3>
                 </div>
                 <h2>Contact for a Quote today! <br/>347-858-6393</h2>
             </div>
