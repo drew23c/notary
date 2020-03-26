@@ -30,8 +30,9 @@ export default class Info extends Component{
                 <div className="certified-section">
                     <h2>Certified</h2>
                     <img className="pen" src={pen} />
-                    <ul className="featured-list">
                     <h2>Specializes in:</h2>
+                    <div className="row">
+                    <div className="column">
                         <li><b>Loan documents for Refinance</b></li>
                         <li><b>Home purchase or sales</b></li>
                         <li><b>Home Equity Line of Credit</b></li>
@@ -43,6 +44,8 @@ export default class Info extends Component{
                         <li><b>Life of Certification</b></li>
                         <li><b>Permission for Children/Child to travel without one parent</b></li>
                         <li><b>Adoption</b></li>
+                    </div>
+                    <div className="column">
                         <li><b>Tow yard consent</b></li>
                         <li><b>Impounds</b></li>
                         <li><b>Affidavit</b></li>
@@ -53,7 +56,8 @@ export default class Info extends Component{
                         <li><b>Retirement</b></li>
                         <li><b>Bail Bonds</b></li>
                         <li><b>Background Check</b></li>
-                    </ul>
+                    </div>
+                    </div>
                     <h3>Responsibilities include communicating with Escrow companies, Lenders and Signing Services.</h3>
                     <h3>Also serving as a Remote Testimony Witness:</h3>
                     <h3>Telephone Deposition where the court or circumstances set  up a conference call, where a Notary will be present to identify the individual providing the testimony.</h3>

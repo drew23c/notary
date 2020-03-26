@@ -12,6 +12,22 @@
     margin-bottom:5%;
     margin-top:5%;
 }
+.row{
+    margin-left:25%;
+    margin-bottom: 5%;
+}
+.column {
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 .professional{
     width:15%;
     height:15%;
