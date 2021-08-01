@@ -7,7 +7,7 @@ export default class Footer extends Component{
         return(
             <div className="footer">
                 <ul className="footer-list">
-                    <li className="title">VC Mobile Signing Agent</li>
+                    <li className="title">VC Mobile Signing Agent/ Livescan Fingerprinting</li>
                     <li><a className="email-icon" href="mailto:viviennecaldwell35@gmail.com"><img src={email} /></a></li>
                 </ul>
             </div>
