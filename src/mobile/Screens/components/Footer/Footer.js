@@ -7,7 +7,7 @@ export default class Footer extends Component{
     render(){
         return(
             <View style={styles.container}>
-                <Text style={{left:-10}}>VC Mobile Signing Agent</Text>
+                <Text style={{left:-10}}>VC Mobile Signing Agent/ Livescan Fingerprinting</Text>
                 <TouchableOpacity style={{left:-10}} onPress={()=> Communications.email(["viviennecaldwell35@gmail.com", "viviennecaldwell35@gmail.com"], null, null, 'My Subject', 'My body text')}><Image style={{height:30, width:30}} source={email} /></TouchableOpacity>
             </View>
         )

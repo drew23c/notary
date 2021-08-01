@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, Image, TouchableWithoutFeedback, ScrollView, Animated, Linking, Easing } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
 import Header from './components/Header/Header';
 import Contact from './components/Contact/Contact';
 import Services from './components/Services/Services';

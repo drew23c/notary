@@ -9,7 +9,7 @@ export default class Header extends Component{
             <View style={styles.container}>
                 <Image style={{height:300, width:400, zIndex:9}} className="writer-header" source={writerHeader} />
                 <Image style={{width:80, height:80, top:5, borderRadius:25, left:-15}} source={profile} />
-                <Text style={{top:5, left:-15, padding:5, fontWeight:'bold', fontSize:15}}>Vivienne Caldwell, Mobile Signing Agent</Text>
+                <Text style={{top:5, left:-15, padding:5, fontWeight:'bold', fontSize:15}}>Vivienne Caldwell, Mobile Signing Agent/ Livescan Fingerprinting</Text>
             </View>
         )
     }

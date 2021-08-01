@@ -5,8 +5,8 @@ export default class Services extends Component{
     render(){
         return(
             <View style={styles.container}>
-            <Text style={styles.title}>Certified Mobile Notary Signing Agent travels to you.  Our service is strictly mobile by appointment only.</Text>
-            <Text style={styles.title}>Servicing the Queens, Brooklyn, and Long Island area in NYC.</Text>
+            <Text style={styles.title}>Certified Mobile Notary Signing Agent travels to you.  My service is strictly mobile by appointment only.</Text>
+            <Text style={styles.title}>Servicing the Queens, Brooklyn, Nassau and Suffolk Counties.</Text>
                 <View style={{width:'80%', left:-15}}>
                     <FlatList
                         data={[
