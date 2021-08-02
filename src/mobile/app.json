@@ -3,7 +3,6 @@
     "name": "VC Mobile Signing Agent",
     "slug": "mobile",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android"
@@ -28,6 +27,9 @@
     "android": {
       "package": "com.vcmobilesigningagent",
       "versionCode": 7
+    },
+    "packagerOpts": {
+      "sourceExts": [ "js", "json", "ts", "tsx", "jsx", "vue"]
     }
   }
 }
