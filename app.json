@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "notary-site",
+    "slug": "notary-site",
+    "version": "0.1.0",
+    "sdkVersion": "42.0.0",
+    "platforms": [],
+    "android": {
+      "package": "com.vcmobilesigningagent"
+    }
+  }
+}
