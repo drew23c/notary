@@ -6,7 +6,7 @@ export default class Services extends Component{
         return(
             <div className="services">
             <h2>Certified Mobile Notary Signing Agent travels to you.  Our service is strictly mobile by appointment only.</h2>
-            <h2>Servicing the Queens, Brooklyn, Nassau and Suffolk Counties.</h2>
+            <h2>Servicing the Queens, Brooklyn, and Long Island area in NYC.</h2>
                 <ul>
                     <li>~Making sure legal documents are authentic.</li>
                     <li>~Checking the identity of the person signing the documents.</li>
