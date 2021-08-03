@@ -71,6 +71,7 @@ export default class Info extends Component{
                         The benefits my Mobile Fingerprinting and Notary Signing services include convenience of not
                         having to leave your home or offices.
                     </h3>
+                    <a href="https://www.bbb.org/new-york-city/customer-reviews/notary-public/vc-mobile-signing-agent-in-saint-albans-ny-87150500/add/" target="_blank" rel="nofollow"><img src="https://seal-newyork.bbb.org/customer-reviews/badge-10-bbb-87150500.png" style="border: 0;" alt="VC Mobile Signing Agent BBB Business Review" /></a>
                     <img className="payment" src={bbb} />
                     <h2>Mobile Fingerprinting Specializes In:</h2>
                     <div className="row">

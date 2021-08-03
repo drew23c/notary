@@ -12,7 +12,7 @@ export default class Header extends Component{
                 <img className="writer-header" src={writerHeader} />
                 <img className="writer-header-right" src={fingerprint} />
                 <img className="profile" src={profile} />
-                <h1 className="name-title">Vivienne Caldwell, Mobile Signing Agent</h1><br/>
+                <h1 className="name-title">Vivienne Caldwell, Mobile Signing Agent/ Livescan Fingerprinting</h1><br/>
             </div>
         )
     }
