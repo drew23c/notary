@@ -36,5 +36,8 @@
   ],
   "devDependencies": {
     "babel-loader": "^7.1.5"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
