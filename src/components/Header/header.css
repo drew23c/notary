@@ -4,10 +4,11 @@
 .header-title{
     position: absolute;
     z-index: 10;
-    width:60vw;
-    font-size: 6vw;
+    width:40vw;
+    font-size: 2vw;
     margin-left:30%;
-    top:70%;
+    top:20%;
+    background-color: rgb(238, 231, 167);
 }
 .name-title{
     width:90vw;
@@ -16,7 +17,6 @@
 }
 .writer-header{
     position: relative;
-<<<<<<< HEAD
     width:50%;
     height:50%;
 }
@@ -24,10 +24,6 @@
     position: relative;
     width:50%;
     height:50%;
-=======
-    width:100%;
-    height:100%;
->>>>>>> parent of ce47568 (Updates made to notary website)
 }
 .profile{
     width:10vw;
