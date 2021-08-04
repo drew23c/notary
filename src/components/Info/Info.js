@@ -7,7 +7,6 @@ import pen from '../pics/writingPen.jpg';
 import separator from '../pics/separator.png';
 import livescan from '../pics/Fingerprint.jpg';
 import cert from '../pics/Trained Signing Agent.png';
-import bbb from '../pics/Picture1.jpg';
 
 export default class Info extends Component{
     render(){
@@ -71,7 +70,6 @@ export default class Info extends Component{
                         The benefits my Mobile Fingerprinting and Notary Signing services include convenience of not
                         having to leave your home or offices.
                     </h3>
-                    <img className="payment" src={bbb} />
                     <h2>Mobile Fingerprinting Specializes In:</h2>
                     <div className="row">
                         <div className="column">
