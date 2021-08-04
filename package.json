@@ -35,7 +35,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "babel-loader": "^7.1.5"
+    
   },
   "engines": {
     "node": ">=14"
