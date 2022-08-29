@@ -11139,7 +11139,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.4.3.tgz"
   "version" "0.4.3"
 
-"react-scripts@2.1.5":
+"react-scripts@^2.1.5":
   "integrity" "sha512-NaDKSxBLlU/jmO3TjTChz0PnnGToaQn0R/y4l4/Uk1vZdrIUsKCGdOWV1z0SJoRg7bFgNKxh55yS0qMr8rFwCg=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-2.1.5.tgz"
   "version" "2.1.5"
