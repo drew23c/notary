@@ -100,6 +100,30 @@ export default class Info extends Component{
                     <img className="payment" src={cert} />
                 </div>
                 <h2>Contact for a Quote today! <br/>347-858-6393</h2>
+                <div className="photography">
+                    <p>Do you need a Professional Photographer?</p>
+                        <p>Event Photographer:</p>
+                            <li>Sweet Sixteen</li>
+                            <li>Quinceanera</li>
+                            <li>Birthday Party</li>
+                            <li>Graduations</li>
+                            <li>Bridal Shower</li>
+                            <li>Baby Shower</li>
+                            <li>Maternity</li>
+                            <li>Engagement Party</li>
+                            <li>Fashion Shoot</li>
+                            <li>Family Portrait</li>
+                            <li>Proposal</li>
+                            <li>Baby</li>
+                            <li>Confirmation</li>
+                            <li>Christening</li>
+                        <p>Check out Impulsive Visions by Traffik.</p>
+                        <p>impulsivevisions.pixie <a href="https://set.com" target="_blank">set.com</a></p>
+                        <p><a href="https://Instagram.com/Impulsive_visions" target="_blank">Instagram.com/Impulsive_visions</a></p>
+                        <p><a href="https://Twitter.com/IV_By_Traffik" target="_blank">Twitter.com/IV_By_Traffik</a></p>
+                        <p>For more information, email :</p>
+                        <p><a href="mailto:IVBYTRAFFIK@gmail.com">IVBYTRAFFIK@gmail.com</a></p>
+                </div>
             </div>
         )
     }
