@@ -7,6 +7,7 @@ import pen from '../pics/writingPen.jpg';
 import separator from '../pics/separator.png';
 import livescan from '../pics/Fingerprint.jpg';
 import cert from '../pics/Trained Signing Agent.png';
+import camera from '../pics/shutterstock.jpg';
 
 export default class Info extends Component{
     render(){
@@ -101,6 +102,7 @@ export default class Info extends Component{
                 </div>
                 <h2>Contact for a Quote today! <br/>347-858-6393</h2>
                 <div className="photography">
+                    <img className="camera" src={camera} />
                     <p>Do you need a Professional Photographer?</p>
                         <p>Event Photographer:</p>
                             <li>Sweet Sixteen</li>
